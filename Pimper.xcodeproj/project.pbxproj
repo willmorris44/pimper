@@ -10,12 +10,20 @@
 		E48F1DAD2541E70D003CBC88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DAC2541E70D003CBC88 /* AppDelegate.swift */; };
 		E48F1DAF2541E70D003CBC88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DAE2541E70D003CBC88 /* SceneDelegate.swift */; };
 		E48F1DB12541E70D003CBC88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DB02541E70D003CBC88 /* ViewController.swift */; };
-		E48F1DB42541E70D003CBC88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48F1DB22541E70D003CBC88 /* Main.storyboard */; };
 		E48F1DB72541E70D003CBC88 /* Pimper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DB52541E70D003CBC88 /* Pimper.xcdatamodeld */; };
 		E48F1DB92541E713003CBC88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E48F1DB82541E713003CBC88 /* Assets.xcassets */; };
-		E48F1DBC2541E713003CBC88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48F1DBA2541E713003CBC88 /* LaunchScreen.storyboard */; };
 		E48F1DC72541E714003CBC88 /* PimperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DC62541E714003CBC88 /* PimperTests.swift */; };
 		E48F1DD22541E714003CBC88 /* PimperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DD12541E714003CBC88 /* PimperUITests.swift */; };
+		E48F1DF22541EC8E003CBC88 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48F1DF12541EC8E003CBC88 /* Launch Screen.storyboard */; };
+		E48F1E092541F102003CBC88 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E012541F102003CBC88 /* Note+CoreDataClass.swift */; };
+		E48F1E0B2541F102003CBC88 /* QCDate+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E032541F102003CBC88 /* QCDate+CoreDataClass.swift */; };
+		E48F1E0D2541F102003CBC88 /* InfoGrabber+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E052541F102003CBC88 /* InfoGrabber+CoreDataClass.swift */; };
+		E48F1E0F2541F102003CBC88 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E072541F102003CBC88 /* Person+CoreDataClass.swift */; };
+		E48F1E222541F26E003CBC88 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E202541F26E003CBC88 /* User+CoreDataClass.swift */; };
+		E48F1E2E2541F888003CBC88 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E2D2541F888003CBC88 /* MainCoordinator.swift */; };
+		E48F1E332541F8EF003CBC88 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E322541F8EF003CBC88 /* HomeScreen.swift */; };
+		E48F1E382542030E003CBC88 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E372542030E003CBC88 /* ProfileScreen.swift */; };
+		E48F1E3D2542060B003CBC88 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E3C2542060B003CBC88 /* MainTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +48,8 @@
 		E48F1DAC2541E70D003CBC88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E48F1DAE2541E70D003CBC88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E48F1DB02541E70D003CBC88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E48F1DB32541E70D003CBC88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E48F1DB62541E70D003CBC88 /* Pimper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pimper.xcdatamodel; sourceTree = "<group>"; };
 		E48F1DB82541E713003CBC88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E48F1DBB2541E713003CBC88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E48F1DBD2541E713003CBC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E48F1DC22541E714003CBC88 /* PimperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PimperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48F1DC62541E714003CBC88 /* PimperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PimperTests.swift; sourceTree = "<group>"; };
@@ -51,6 +57,16 @@
 		E48F1DCD2541E714003CBC88 /* PimperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PimperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48F1DD12541E714003CBC88 /* PimperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PimperUITests.swift; sourceTree = "<group>"; };
 		E48F1DD32541E714003CBC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E48F1DF12541EC8E003CBC88 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		E48F1E012541F102003CBC88 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E48F1E032541F102003CBC88 /* QCDate+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QCDate+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E48F1E052541F102003CBC88 /* InfoGrabber+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InfoGrabber+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E48F1E072541F102003CBC88 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E48F1E202541F26E003CBC88 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E48F1E2D2541F888003CBC88 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		E48F1E322541F8EF003CBC88 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		E48F1E372542030E003CBC88 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		E48F1E3C2542060B003CBC88 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,11 @@
 		E48F1DA02541E70D003CBC88 = {
 			isa = PBXGroup;
 			children = (
+				E48F1E202541F26E003CBC88 /* User+CoreDataClass.swift */,
+				E48F1E012541F102003CBC88 /* Note+CoreDataClass.swift */,
+				E48F1E032541F102003CBC88 /* QCDate+CoreDataClass.swift */,
+				E48F1E052541F102003CBC88 /* InfoGrabber+CoreDataClass.swift */,
+				E48F1E072541F102003CBC88 /* Person+CoreDataClass.swift */,
 				E48F1DAB2541E70D003CBC88 /* Pimper */,
 				E48F1DC52541E714003CBC88 /* PimperTests */,
 				E48F1DD02541E714003CBC88 /* PimperUITests */,
@@ -104,11 +125,14 @@
 				E48F1DAC2541E70D003CBC88 /* AppDelegate.swift */,
 				E48F1DAE2541E70D003CBC88 /* SceneDelegate.swift */,
 				E48F1DB02541E70D003CBC88 /* ViewController.swift */,
-				E48F1DB22541E70D003CBC88 /* Main.storyboard */,
 				E48F1DB82541E713003CBC88 /* Assets.xcassets */,
-				E48F1DBA2541E713003CBC88 /* LaunchScreen.storyboard */,
 				E48F1DBD2541E713003CBC88 /* Info.plist */,
 				E48F1DB52541E70D003CBC88 /* Pimper.xcdatamodeld */,
+				E48F1DF12541EC8E003CBC88 /* Launch Screen.storyboard */,
+				E48F1E2D2541F888003CBC88 /* MainCoordinator.swift */,
+				E48F1E322541F8EF003CBC88 /* HomeScreen.swift */,
+				E48F1E372542030E003CBC88 /* ProfileScreen.swift */,
+				E48F1E3C2542060B003CBC88 /* MainTabBar.swift */,
 			);
 			path = Pimper;
 			sourceTree = "<group>";
@@ -234,9 +258,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E48F1DBC2541E713003CBC88 /* LaunchScreen.storyboard in Resources */,
+				E48F1DF22541EC8E003CBC88 /* Launch Screen.storyboard in Resources */,
 				E48F1DB92541E713003CBC88 /* Assets.xcassets in Resources */,
-				E48F1DB42541E70D003CBC88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +285,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				E48F1DB72541E70D003CBC88 /* Pimper.xcdatamodeld in Sources */,
+				E48F1E0F2541F102003CBC88 /* Person+CoreDataClass.swift in Sources */,
 				E48F1DB12541E70D003CBC88 /* ViewController.swift in Sources */,
+				E48F1E2E2541F888003CBC88 /* MainCoordinator.swift in Sources */,
+				E48F1E332541F8EF003CBC88 /* HomeScreen.swift in Sources */,
+				E48F1E092541F102003CBC88 /* Note+CoreDataClass.swift in Sources */,
 				E48F1DAD2541E70D003CBC88 /* AppDelegate.swift in Sources */,
+				E48F1E382542030E003CBC88 /* ProfileScreen.swift in Sources */,
+				E48F1E222541F26E003CBC88 /* User+CoreDataClass.swift in Sources */,
 				E48F1DAF2541E70D003CBC88 /* SceneDelegate.swift in Sources */,
+				E48F1E0D2541F102003CBC88 /* InfoGrabber+CoreDataClass.swift in Sources */,
+				E48F1E0B2541F102003CBC88 /* QCDate+CoreDataClass.swift in Sources */,
+				E48F1E3D2542060B003CBC88 /* MainTabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,25 +330,6 @@
 			targetProxy = E48F1DCE2541E714003CBC88 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E48F1DB22541E70D003CBC88 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E48F1DB32541E70D003CBC88 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E48F1DBA2541E713003CBC88 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E48F1DBB2541E713003CBC88 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E48F1DD42541E714003CBC88 /* Debug */ = {
@@ -370,7 +383,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -425,7 +438,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -450,7 +463,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.qcdev.Pimper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -469,7 +482,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.qcdev.Pimper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
