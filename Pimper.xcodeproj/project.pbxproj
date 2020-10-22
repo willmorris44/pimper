@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E48F1DAD2541E70D003CBC88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DAC2541E70D003CBC88 /* AppDelegate.swift */; };
 		E48F1DAF2541E70D003CBC88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DAE2541E70D003CBC88 /* SceneDelegate.swift */; };
-		E48F1DB12541E70D003CBC88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DB02541E70D003CBC88 /* ViewController.swift */; };
 		E48F1DB72541E70D003CBC88 /* Pimper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DB52541E70D003CBC88 /* Pimper.xcdatamodeld */; };
 		E48F1DB92541E713003CBC88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E48F1DB82541E713003CBC88 /* Assets.xcassets */; };
 		E48F1DC72541E714003CBC88 /* PimperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DC62541E714003CBC88 /* PimperTests.swift */; };
@@ -24,6 +23,12 @@
 		E48F1E332541F8EF003CBC88 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E322541F8EF003CBC88 /* HomeScreen.swift */; };
 		E48F1E382542030E003CBC88 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E372542030E003CBC88 /* ProfileScreen.swift */; };
 		E48F1E3D2542060B003CBC88 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E3C2542060B003CBC88 /* MainTabBar.swift */; };
+		E48F1E4225420840003CBC88 /* DateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E4125420840003CBC88 /* DateTableViewCell.swift */; };
+		E48F1E4725420CCE003CBC88 /* HelperStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E4625420CCE003CBC88 /* HelperStructs.swift */; };
+		E48F1E4C25420D63003CBC88 /* QCDateVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E4B25420D63003CBC88 /* QCDateVM.swift */; };
+		E48F1E602542132C003CBC88 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E5F2542132C003CBC88 /* FloatingButton.swift */; };
+		E48F1E6525421AC1003CBC88 /* PersonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E6425421AC1003CBC88 /* PersonScreen.swift */; };
+		E48F1E6D254223A5003CBC88 /* CreatePersonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E6C254223A5003CBC88 /* CreatePersonScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +52,6 @@
 		E48F1DA92541E70D003CBC88 /* Pimper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pimper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48F1DAC2541E70D003CBC88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E48F1DAE2541E70D003CBC88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E48F1DB02541E70D003CBC88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E48F1DB62541E70D003CBC88 /* Pimper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pimper.xcdatamodel; sourceTree = "<group>"; };
 		E48F1DB82541E713003CBC88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E48F1DBD2541E713003CBC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -67,6 +71,12 @@
 		E48F1E322541F8EF003CBC88 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		E48F1E372542030E003CBC88 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
 		E48F1E3C2542060B003CBC88 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		E48F1E4125420840003CBC88 /* DateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTableViewCell.swift; sourceTree = "<group>"; };
+		E48F1E4625420CCE003CBC88 /* HelperStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperStructs.swift; sourceTree = "<group>"; };
+		E48F1E4B25420D63003CBC88 /* QCDateVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCDateVM.swift; sourceTree = "<group>"; };
+		E48F1E5F2542132C003CBC88 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		E48F1E6425421AC1003CBC88 /* PersonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonScreen.swift; sourceTree = "<group>"; };
+		E48F1E6C254223A5003CBC88 /* CreatePersonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePersonScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +107,6 @@
 		E48F1DA02541E70D003CBC88 = {
 			isa = PBXGroup;
 			children = (
-				E48F1E202541F26E003CBC88 /* User+CoreDataClass.swift */,
-				E48F1E012541F102003CBC88 /* Note+CoreDataClass.swift */,
-				E48F1E032541F102003CBC88 /* QCDate+CoreDataClass.swift */,
-				E48F1E052541F102003CBC88 /* InfoGrabber+CoreDataClass.swift */,
-				E48F1E072541F102003CBC88 /* Person+CoreDataClass.swift */,
 				E48F1DAB2541E70D003CBC88 /* Pimper */,
 				E48F1DC52541E714003CBC88 /* PimperTests */,
 				E48F1DD02541E714003CBC88 /* PimperUITests */,
@@ -122,17 +127,12 @@
 		E48F1DAB2541E70D003CBC88 /* Pimper */ = {
 			isa = PBXGroup;
 			children = (
-				E48F1DAC2541E70D003CBC88 /* AppDelegate.swift */,
-				E48F1DAE2541E70D003CBC88 /* SceneDelegate.swift */,
-				E48F1DB02541E70D003CBC88 /* ViewController.swift */,
-				E48F1DB82541E713003CBC88 /* Assets.xcassets */,
-				E48F1DBD2541E713003CBC88 /* Info.plist */,
-				E48F1DB52541E70D003CBC88 /* Pimper.xcdatamodeld */,
-				E48F1DF12541EC8E003CBC88 /* Launch Screen.storyboard */,
-				E48F1E2D2541F888003CBC88 /* MainCoordinator.swift */,
-				E48F1E322541F8EF003CBC88 /* HomeScreen.swift */,
-				E48F1E372542030E003CBC88 /* ProfileScreen.swift */,
-				E48F1E3C2542060B003CBC88 /* MainTabBar.swift */,
+				E48F1E5825421191003CBC88 /* ViewControllers */,
+				E48F1E572542118C003CBC88 /* Views */,
+				E48F1E552542114A003CBC88 /* Models */,
+				E48F1E542542113A003CBC88 /* ViewModels */,
+				E48F1E5325421126003CBC88 /* Helpers */,
+				E48F1E5625421165003CBC88 /* Resources */,
 			);
 			path = Pimper;
 			sourceTree = "<group>";
@@ -153,6 +153,69 @@
 				E48F1DD32541E714003CBC88 /* Info.plist */,
 			);
 			path = PimperUITests;
+			sourceTree = "<group>";
+		};
+		E48F1E5325421126003CBC88 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E48F1E2D2541F888003CBC88 /* MainCoordinator.swift */,
+				E48F1E4625420CCE003CBC88 /* HelperStructs.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E48F1E542542113A003CBC88 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E48F1E4B25420D63003CBC88 /* QCDateVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E48F1E552542114A003CBC88 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E48F1DB52541E70D003CBC88 /* Pimper.xcdatamodeld */,
+				E48F1E202541F26E003CBC88 /* User+CoreDataClass.swift */,
+				E48F1E012541F102003CBC88 /* Note+CoreDataClass.swift */,
+				E48F1E032541F102003CBC88 /* QCDate+CoreDataClass.swift */,
+				E48F1E052541F102003CBC88 /* InfoGrabber+CoreDataClass.swift */,
+				E48F1E072541F102003CBC88 /* Person+CoreDataClass.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E48F1E5625421165003CBC88 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E48F1DAC2541E70D003CBC88 /* AppDelegate.swift */,
+				E48F1DAE2541E70D003CBC88 /* SceneDelegate.swift */,
+				E48F1DF12541EC8E003CBC88 /* Launch Screen.storyboard */,
+				E48F1DB82541E713003CBC88 /* Assets.xcassets */,
+				E48F1DBD2541E713003CBC88 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E48F1E572542118C003CBC88 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E48F1E4125420840003CBC88 /* DateTableViewCell.swift */,
+				E48F1E5F2542132C003CBC88 /* FloatingButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E48F1E5825421191003CBC88 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E48F1E322541F8EF003CBC88 /* HomeScreen.swift */,
+				E48F1E372542030E003CBC88 /* ProfileScreen.swift */,
+				E48F1E3C2542060B003CBC88 /* MainTabBar.swift */,
+				E48F1E6425421AC1003CBC88 /* PersonScreen.swift */,
+				E48F1E6C254223A5003CBC88 /* CreatePersonScreen.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,17 +349,22 @@
 			files = (
 				E48F1DB72541E70D003CBC88 /* Pimper.xcdatamodeld in Sources */,
 				E48F1E0F2541F102003CBC88 /* Person+CoreDataClass.swift in Sources */,
-				E48F1DB12541E70D003CBC88 /* ViewController.swift in Sources */,
 				E48F1E2E2541F888003CBC88 /* MainCoordinator.swift in Sources */,
 				E48F1E332541F8EF003CBC88 /* HomeScreen.swift in Sources */,
 				E48F1E092541F102003CBC88 /* Note+CoreDataClass.swift in Sources */,
 				E48F1DAD2541E70D003CBC88 /* AppDelegate.swift in Sources */,
+				E48F1E4225420840003CBC88 /* DateTableViewCell.swift in Sources */,
 				E48F1E382542030E003CBC88 /* ProfileScreen.swift in Sources */,
 				E48F1E222541F26E003CBC88 /* User+CoreDataClass.swift in Sources */,
+				E48F1E6525421AC1003CBC88 /* PersonScreen.swift in Sources */,
+				E48F1E6D254223A5003CBC88 /* CreatePersonScreen.swift in Sources */,
 				E48F1DAF2541E70D003CBC88 /* SceneDelegate.swift in Sources */,
 				E48F1E0D2541F102003CBC88 /* InfoGrabber+CoreDataClass.swift in Sources */,
 				E48F1E0B2541F102003CBC88 /* QCDate+CoreDataClass.swift in Sources */,
 				E48F1E3D2542060B003CBC88 /* MainTabBar.swift in Sources */,
+				E48F1E4C25420D63003CBC88 /* QCDateVM.swift in Sources */,
+				E48F1E4725420CCE003CBC88 /* HelperStructs.swift in Sources */,
+				E48F1E602542132C003CBC88 /* FloatingButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,7 +523,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C5UGU936UZ;
-				INFOPLIST_FILE = Pimper/Info.plist;
+				INFOPLIST_FILE = Pimper/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,7 +542,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C5UGU936UZ;
-				INFOPLIST_FILE = Pimper/Info.plist;
+				INFOPLIST_FILE = Pimper/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

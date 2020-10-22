@@ -16,7 +16,15 @@ class HomeScreen: UIViewController {
     
     private lazy var tableView: UITableView = {
         let result = UITableView()
-        result.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        result.register(DateTableViewCell.self, forCellReuseIdentifier: Cells.dateCell)
+        return result
+    }()
+    
+    private lazy var createDateButton: FloatingButton = {
+        let result = FloatingButton {
+            print("1")
+        }
+        result.setImage(UIImage(systemName: "plus"), for: .normal)
         return result
     }()
     
@@ -27,8 +35,9 @@ class HomeScreen: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
-        navigationItem.title = "Home"
+        setupNavBar()
         setupTableView()
+        setupCreateDateButton()
     }
     
     override func viewDidLayoutSubviews() {
@@ -45,6 +54,23 @@ class HomeScreen: UIViewController {
         tableView.dataSource = self
         view.addSubview(tableView)
     }
+    
+    private func setupNavBar() {
+        navigationItem.title = "Home"
+        navigationController?.navigationBar.prefersLargeTitles = true
+        navigationItem.largeTitleDisplayMode = .always
+    }
+    
+    private func setupCreateDateButton() {
+        view.addSubview(createDateButton)
+        //createDateButton.layer.zPosition = 1
+        
+        createDateButton.translatesAutoresizingMaskIntoConstraints = false
+        createDateButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -12).isActive = true
+        createDateButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -120).isActive = true
+        createDateButton.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.24).isActive = true
+        createDateButton.heightAnchor.constraint(equalTo: createDateButton.widthAnchor, multiplier: 1).isActive = true
+    }
 }
 
 //###############################################################################################################
@@ -53,12 +79,14 @@ class HomeScreen: UIViewController {
 
 extension HomeScreen: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = "Hello"
-        return cell
+        let cell = tableView.dequeueReusableCell(withIdentifier: Cells.dateCell, for: indexPath) as! DateTableViewCell
+        let date = QCDateVM()
+        cell.setDate(date: date)
+        
+        return cell 
     }
 }
