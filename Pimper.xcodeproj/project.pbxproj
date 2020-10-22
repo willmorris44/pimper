@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E48F1DAD2541E70D003CBC88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DAC2541E70D003CBC88 /* AppDelegate.swift */; };
+		E48F1DAF2541E70D003CBC88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DAE2541E70D003CBC88 /* SceneDelegate.swift */; };
+		E48F1DB12541E70D003CBC88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DB02541E70D003CBC88 /* ViewController.swift */; };
+		E48F1DB42541E70D003CBC88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48F1DB22541E70D003CBC88 /* Main.storyboard */; };
+		E48F1DB72541E70D003CBC88 /* Pimper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DB52541E70D003CBC88 /* Pimper.xcdatamodeld */; };
+		E48F1DB92541E713003CBC88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E48F1DB82541E713003CBC88 /* Assets.xcassets */; };
+		E48F1DBC2541E713003CBC88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48F1DBA2541E713003CBC88 /* LaunchScreen.storyboard */; };
+		E48F1DC72541E714003CBC88 /* PimperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DC62541E714003CBC88 /* PimperTests.swift */; };
+		E48F1DD22541E714003CBC88 /* PimperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DD12541E714003CBC88 /* PimperUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E48F1DC32541E714003CBC88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E48F1DA12541E70D003CBC88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E48F1DA82541E70D003CBC88;
+			remoteInfo = Pimper;
+		};
+		E48F1DCE2541E714003CBC88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E48F1DA12541E70D003CBC88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E48F1DA82541E70D003CBC88;
+			remoteInfo = Pimper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E48F1DA92541E70D003CBC88 /* Pimper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pimper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E48F1DAC2541E70D003CBC88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E48F1DAE2541E70D003CBC88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E48F1DB02541E70D003CBC88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E48F1DB32541E70D003CBC88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E48F1DB62541E70D003CBC88 /* Pimper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pimper.xcdatamodel; sourceTree = "<group>"; };
+		E48F1DB82541E713003CBC88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E48F1DBB2541E713003CBC88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E48F1DBD2541E713003CBC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E48F1DC22541E714003CBC88 /* PimperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PimperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E48F1DC62541E714003CBC88 /* PimperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PimperTests.swift; sourceTree = "<group>"; };
+		E48F1DC82541E714003CBC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E48F1DCD2541E714003CBC88 /* PimperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PimperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E48F1DD12541E714003CBC88 /* PimperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PimperUITests.swift; sourceTree = "<group>"; };
+		E48F1DD32541E714003CBC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E48F1DA62541E70D003CBC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48F1DBF2541E714003CBC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48F1DCA2541E714003CBC88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E48F1DA02541E70D003CBC88 = {
+			isa = PBXGroup;
+			children = (
+				E48F1DAB2541E70D003CBC88 /* Pimper */,
+				E48F1DC52541E714003CBC88 /* PimperTests */,
+				E48F1DD02541E714003CBC88 /* PimperUITests */,
+				E48F1DAA2541E70D003CBC88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E48F1DAA2541E70D003CBC88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E48F1DA92541E70D003CBC88 /* Pimper.app */,
+				E48F1DC22541E714003CBC88 /* PimperTests.xctest */,
+				E48F1DCD2541E714003CBC88 /* PimperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E48F1DAB2541E70D003CBC88 /* Pimper */ = {
+			isa = PBXGroup;
+			children = (
+				E48F1DAC2541E70D003CBC88 /* AppDelegate.swift */,
+				E48F1DAE2541E70D003CBC88 /* SceneDelegate.swift */,
+				E48F1DB02541E70D003CBC88 /* ViewController.swift */,
+				E48F1DB22541E70D003CBC88 /* Main.storyboard */,
+				E48F1DB82541E713003CBC88 /* Assets.xcassets */,
+				E48F1DBA2541E713003CBC88 /* LaunchScreen.storyboard */,
+				E48F1DBD2541E713003CBC88 /* Info.plist */,
+				E48F1DB52541E70D003CBC88 /* Pimper.xcdatamodeld */,
+			);
+			path = Pimper;
+			sourceTree = "<group>";
+		};
+		E48F1DC52541E714003CBC88 /* PimperTests */ = {
+			isa = PBXGroup;
+			children = (
+				E48F1DC62541E714003CBC88 /* PimperTests.swift */,
+				E48F1DC82541E714003CBC88 /* Info.plist */,
+			);
+			path = PimperTests;
+			sourceTree = "<group>";
+		};
+		E48F1DD02541E714003CBC88 /* PimperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E48F1DD12541E714003CBC88 /* PimperUITests.swift */,
+				E48F1DD32541E714003CBC88 /* Info.plist */,
+			);
+			path = PimperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E48F1DA82541E70D003CBC88 /* Pimper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E48F1DD62541E714003CBC88 /* Build configuration list for PBXNativeTarget "Pimper" */;
+			buildPhases = (
+				E48F1DA52541E70D003CBC88 /* Sources */,
+				E48F1DA62541E70D003CBC88 /* Frameworks */,
+				E48F1DA72541E70D003CBC88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pimper;
+			productName = Pimper;
+			productReference = E48F1DA92541E70D003CBC88 /* Pimper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E48F1DC12541E714003CBC88 /* PimperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E48F1DD92541E714003CBC88 /* Build configuration list for PBXNativeTarget "PimperTests" */;
+			buildPhases = (
+				E48F1DBE2541E714003CBC88 /* Sources */,
+				E48F1DBF2541E714003CBC88 /* Frameworks */,
+				E48F1DC02541E714003CBC88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E48F1DC42541E714003CBC88 /* PBXTargetDependency */,
+			);
+			name = PimperTests;
+			productName = PimperTests;
+			productReference = E48F1DC22541E714003CBC88 /* PimperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E48F1DCC2541E714003CBC88 /* PimperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E48F1DDC2541E714003CBC88 /* Build configuration list for PBXNativeTarget "PimperUITests" */;
+			buildPhases = (
+				E48F1DC92541E714003CBC88 /* Sources */,
+				E48F1DCA2541E714003CBC88 /* Frameworks */,
+				E48F1DCB2541E714003CBC88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E48F1DCF2541E714003CBC88 /* PBXTargetDependency */,
+			);
+			name = PimperUITests;
+			productName = PimperUITests;
+			productReference = E48F1DCD2541E714003CBC88 /* PimperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E48F1DA12541E70D003CBC88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E48F1DA82541E70D003CBC88 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					E48F1DC12541E714003CBC88 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = E48F1DA82541E70D003CBC88;
+					};
+					E48F1DCC2541E714003CBC88 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = E48F1DA82541E70D003CBC88;
+					};
+				};
+			};
+			buildConfigurationList = E48F1DA42541E70D003CBC88 /* Build configuration list for PBXProject "Pimper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E48F1DA02541E70D003CBC88;
+			productRefGroup = E48F1DAA2541E70D003CBC88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E48F1DA82541E70D003CBC88 /* Pimper */,
+				E48F1DC12541E714003CBC88 /* PimperTests */,
+				E48F1DCC2541E714003CBC88 /* PimperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E48F1DA72541E70D003CBC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48F1DBC2541E713003CBC88 /* LaunchScreen.storyboard in Resources */,
+				E48F1DB92541E713003CBC88 /* Assets.xcassets in Resources */,
+				E48F1DB42541E70D003CBC88 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48F1DC02541E714003CBC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48F1DCB2541E714003CBC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E48F1DA52541E70D003CBC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48F1DB72541E70D003CBC88 /* Pimper.xcdatamodeld in Sources */,
+				E48F1DB12541E70D003CBC88 /* ViewController.swift in Sources */,
+				E48F1DAD2541E70D003CBC88 /* AppDelegate.swift in Sources */,
+				E48F1DAF2541E70D003CBC88 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48F1DBE2541E714003CBC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48F1DC72541E714003CBC88 /* PimperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E48F1DC92541E714003CBC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48F1DD22541E714003CBC88 /* PimperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E48F1DC42541E714003CBC88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E48F1DA82541E70D003CBC88 /* Pimper */;
+			targetProxy = E48F1DC32541E714003CBC88 /* PBXContainerItemProxy */;
+		};
+		E48F1DCF2541E714003CBC88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E48F1DA82541E70D003CBC88 /* Pimper */;
+			targetProxy = E48F1DCE2541E714003CBC88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E48F1DB22541E70D003CBC88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E48F1DB32541E70D003CBC88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E48F1DBA2541E713003CBC88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E48F1DBB2541E713003CBC88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E48F1DD42541E714003CBC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E48F1DD52541E714003CBC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E48F1DD72541E714003CBC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5UGU936UZ;
+				INFOPLIST_FILE = Pimper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qcdev.Pimper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E48F1DD82541E714003CBC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5UGU936UZ;
+				INFOPLIST_FILE = Pimper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qcdev.Pimper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E48F1DDA2541E714003CBC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5UGU936UZ;
+				INFOPLIST_FILE = PimperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qcdev.PimperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pimper.app/Pimper";
+			};
+			name = Debug;
+		};
+		E48F1DDB2541E714003CBC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5UGU936UZ;
+				INFOPLIST_FILE = PimperTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qcdev.PimperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pimper.app/Pimper";
+			};
+			name = Release;
+		};
+		E48F1DDD2541E714003CBC88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5UGU936UZ;
+				INFOPLIST_FILE = PimperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qcdev.PimperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pimper;
+			};
+			name = Debug;
+		};
+		E48F1DDE2541E714003CBC88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C5UGU936UZ;
+				INFOPLIST_FILE = PimperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qcdev.PimperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pimper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E48F1DA42541E70D003CBC88 /* Build configuration list for PBXProject "Pimper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E48F1DD42541E714003CBC88 /* Debug */,
+				E48F1DD52541E714003CBC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E48F1DD62541E714003CBC88 /* Build configuration list for PBXNativeTarget "Pimper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E48F1DD72541E714003CBC88 /* Debug */,
+				E48F1DD82541E714003CBC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E48F1DD92541E714003CBC88 /* Build configuration list for PBXNativeTarget "PimperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E48F1DDA2541E714003CBC88 /* Debug */,
+				E48F1DDB2541E714003CBC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E48F1DDC2541E714003CBC88 /* Build configuration list for PBXNativeTarget "PimperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E48F1DDD2541E714003CBC88 /* Debug */,
+				E48F1DDE2541E714003CBC88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E48F1DB52541E70D003CBC88 /* Pimper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E48F1DB62541E70D003CBC88 /* Pimper.xcdatamodel */,
+			);
+			currentVersion = E48F1DB62541E70D003CBC88 /* Pimper.xcdatamodel */;
+			path = Pimper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E48F1DA12541E70D003CBC88 /* Project object */;
+}
