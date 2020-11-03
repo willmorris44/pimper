@@ -3,19 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E422AE5525506B370090165F /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E422AE5425506B370090165F /* RxSwift */; };
+		E422AE5725506B370090165F /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = E422AE5625506B370090165F /* RxRelay */; };
+		E422AE5925506B370090165F /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = E422AE5825506B370090165F /* RxCocoa */; };
+		E422AE5E255071B00090165F /* PersonsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422AE5D255071B00090165F /* PersonsListViewModel.swift */; };
+		E422AE66255075F40090165F /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422AE65255075F40090165F /* PersonViewModel.swift */; };
+		E422AE722550A7520090165F /* PersonInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422AE712550A7520090165F /* PersonInfoView.swift */; };
+		E422AE772552000B0090165F /* DatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422AE762552000A0090165F /* DatesView.swift */; };
+		E422AE7C255200EC0090165F /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422AE7B255200EC0090165F /* DateCollectionViewCell.swift */; };
+		E422AE84255201670090165F /* DateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422AE83255201670090165F /* DateViewModel.swift */; };
 		E48F1DAD2541E70D003CBC88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DAC2541E70D003CBC88 /* AppDelegate.swift */; };
 		E48F1DAF2541E70D003CBC88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DAE2541E70D003CBC88 /* SceneDelegate.swift */; };
-		E48F1DB12541E70D003CBC88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DB02541E70D003CBC88 /* ViewController.swift */; };
-		E48F1DB42541E70D003CBC88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48F1DB22541E70D003CBC88 /* Main.storyboard */; };
 		E48F1DB72541E70D003CBC88 /* Pimper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DB52541E70D003CBC88 /* Pimper.xcdatamodeld */; };
 		E48F1DB92541E713003CBC88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E48F1DB82541E713003CBC88 /* Assets.xcassets */; };
-		E48F1DBC2541E713003CBC88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48F1DBA2541E713003CBC88 /* LaunchScreen.storyboard */; };
 		E48F1DC72541E714003CBC88 /* PimperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DC62541E714003CBC88 /* PimperTests.swift */; };
 		E48F1DD22541E714003CBC88 /* PimperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DD12541E714003CBC88 /* PimperUITests.swift */; };
+		E48F1DF22541EC8E003CBC88 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E48F1DF12541EC8E003CBC88 /* Launch Screen.storyboard */; };
+		E48F1E092541F102003CBC88 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E012541F102003CBC88 /* Note+CoreDataClass.swift */; };
+		E48F1E0B2541F102003CBC88 /* QCDate+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E032541F102003CBC88 /* QCDate+CoreDataClass.swift */; };
+		E48F1E0D2541F102003CBC88 /* InfoGrabber+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E052541F102003CBC88 /* InfoGrabber+CoreDataClass.swift */; };
+		E48F1E0F2541F102003CBC88 /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E072541F102003CBC88 /* Person+CoreDataClass.swift */; };
+		E48F1E222541F26E003CBC88 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E202541F26E003CBC88 /* User+CoreDataClass.swift */; };
+		E48F1E2E2541F888003CBC88 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E2D2541F888003CBC88 /* MainCoordinator.swift */; };
+		E48F1E332541F8EF003CBC88 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E322541F8EF003CBC88 /* HomeScreen.swift */; };
+		E48F1E382542030E003CBC88 /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E372542030E003CBC88 /* ProfileScreen.swift */; };
+		E48F1E3D2542060B003CBC88 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E3C2542060B003CBC88 /* MainTabBar.swift */; };
+		E48F1E4225420840003CBC88 /* DateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E4125420840003CBC88 /* DateTableViewCell.swift */; };
+		E48F1E4725420CCE003CBC88 /* HelperStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E4625420CCE003CBC88 /* HelperStructs.swift */; };
+		E48F1E602542132C003CBC88 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E5F2542132C003CBC88 /* FloatingButton.swift */; };
+		E48F1E6525421AC1003CBC88 /* PersonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E6425421AC1003CBC88 /* PersonScreen.swift */; };
+		E48F1E6D254223A5003CBC88 /* CreatePersonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E6C254223A5003CBC88 /* CreatePersonScreen.swift */; };
+		E48F1E7225422FC8003CBC88 /* PersonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E7125422FC8003CBC88 /* PersonService.swift */; };
+		E48F1E7725423023003CBC88 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E7625423023003CBC88 /* LoginScreen.swift */; };
+		E48F1E7C2543402B003CBC88 /* PersonDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E7B2543402B003CBC88 /* PersonDetailScreen.swift */; };
+		E48F1E84254378CF003CBC88 /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E83254378CF003CBC88 /* FormTextField.swift */; };
+		E48F1E9125438816003CBC88 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E9025438816003CBC88 /* ViewExtensions.swift */; };
+		E48F1E9625438D57003CBC88 /* AlertControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E9525438D57003CBC88 /* AlertControllers.swift */; };
+		E48F1E9B2547285F003CBC88 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E9A2547285F003CBC88 /* PersonTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +64,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E422AE5D255071B00090165F /* PersonsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListViewModel.swift; sourceTree = "<group>"; };
+		E422AE65255075F40090165F /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
+		E422AE712550A7520090165F /* PersonInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoView.swift; sourceTree = "<group>"; };
+		E422AE762552000A0090165F /* DatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatesView.swift; sourceTree = "<group>"; };
+		E422AE7B255200EC0090165F /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCollectionViewCell.swift; sourceTree = "<group>"; };
+		E422AE83255201670090165F /* DateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewModel.swift; sourceTree = "<group>"; };
 		E48F1DA92541E70D003CBC88 /* Pimper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pimper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48F1DAC2541E70D003CBC88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E48F1DAE2541E70D003CBC88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E48F1DB02541E70D003CBC88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E48F1DB32541E70D003CBC88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E48F1DB62541E70D003CBC88 /* Pimper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pimper.xcdatamodel; sourceTree = "<group>"; };
 		E48F1DB82541E713003CBC88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E48F1DBB2541E713003CBC88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E48F1DBD2541E713003CBC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E48F1DC22541E714003CBC88 /* PimperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PimperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48F1DC62541E714003CBC88 /* PimperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PimperTests.swift; sourceTree = "<group>"; };
@@ -51,6 +82,28 @@
 		E48F1DCD2541E714003CBC88 /* PimperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PimperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48F1DD12541E714003CBC88 /* PimperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PimperUITests.swift; sourceTree = "<group>"; };
 		E48F1DD32541E714003CBC88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E48F1DF12541EC8E003CBC88 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		E48F1E012541F102003CBC88 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E48F1E032541F102003CBC88 /* QCDate+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QCDate+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E48F1E052541F102003CBC88 /* InfoGrabber+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InfoGrabber+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E48F1E072541F102003CBC88 /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E48F1E202541F26E003CBC88 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E48F1E2D2541F888003CBC88 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		E48F1E322541F8EF003CBC88 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		E48F1E372542030E003CBC88 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		E48F1E3C2542060B003CBC88 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		E48F1E4125420840003CBC88 /* DateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTableViewCell.swift; sourceTree = "<group>"; };
+		E48F1E4625420CCE003CBC88 /* HelperStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperStructs.swift; sourceTree = "<group>"; };
+		E48F1E5F2542132C003CBC88 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
+		E48F1E6425421AC1003CBC88 /* PersonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonScreen.swift; sourceTree = "<group>"; };
+		E48F1E6C254223A5003CBC88 /* CreatePersonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePersonScreen.swift; sourceTree = "<group>"; };
+		E48F1E7125422FC8003CBC88 /* PersonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonService.swift; sourceTree = "<group>"; };
+		E48F1E7625423023003CBC88 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		E48F1E7B2543402B003CBC88 /* PersonDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailScreen.swift; sourceTree = "<group>"; };
+		E48F1E83254378CF003CBC88 /* FormTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextField.swift; sourceTree = "<group>"; };
+		E48F1E9025438816003CBC88 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		E48F1E9525438D57003CBC88 /* AlertControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertControllers.swift; sourceTree = "<group>"; };
+		E48F1E9A2547285F003CBC88 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +111,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E422AE5925506B370090165F /* RxCocoa in Frameworks */,
+				E422AE5725506B370090165F /* RxRelay in Frameworks */,
+				E422AE5525506B370090165F /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,14 +157,12 @@
 		E48F1DAB2541E70D003CBC88 /* Pimper */ = {
 			isa = PBXGroup;
 			children = (
-				E48F1DAC2541E70D003CBC88 /* AppDelegate.swift */,
-				E48F1DAE2541E70D003CBC88 /* SceneDelegate.swift */,
-				E48F1DB02541E70D003CBC88 /* ViewController.swift */,
-				E48F1DB22541E70D003CBC88 /* Main.storyboard */,
-				E48F1DB82541E713003CBC88 /* Assets.xcassets */,
-				E48F1DBA2541E713003CBC88 /* LaunchScreen.storyboard */,
-				E48F1DBD2541E713003CBC88 /* Info.plist */,
-				E48F1DB52541E70D003CBC88 /* Pimper.xcdatamodeld */,
+				E48F1E5825421191003CBC88 /* ViewControllers */,
+				E48F1E572542118C003CBC88 /* Views */,
+				E48F1E552542114A003CBC88 /* Models */,
+				E48F1E542542113A003CBC88 /* ViewModels */,
+				E48F1E5325421126003CBC88 /* Helpers */,
+				E48F1E5625421165003CBC88 /* Resources */,
 			);
 			path = Pimper;
 			sourceTree = "<group>";
@@ -131,6 +185,81 @@
 			path = PimperUITests;
 			sourceTree = "<group>";
 		};
+		E48F1E5325421126003CBC88 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E48F1E2D2541F888003CBC88 /* MainCoordinator.swift */,
+				E48F1E4625420CCE003CBC88 /* HelperStructs.swift */,
+				E48F1E7125422FC8003CBC88 /* PersonService.swift */,
+				E48F1E9025438816003CBC88 /* ViewExtensions.swift */,
+				E48F1E9525438D57003CBC88 /* AlertControllers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E48F1E542542113A003CBC88 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E422AE5D255071B00090165F /* PersonsListViewModel.swift */,
+				E422AE65255075F40090165F /* PersonViewModel.swift */,
+				E422AE83255201670090165F /* DateViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E48F1E552542114A003CBC88 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E48F1DB52541E70D003CBC88 /* Pimper.xcdatamodeld */,
+				E48F1E202541F26E003CBC88 /* User+CoreDataClass.swift */,
+				E48F1E012541F102003CBC88 /* Note+CoreDataClass.swift */,
+				E48F1E032541F102003CBC88 /* QCDate+CoreDataClass.swift */,
+				E48F1E052541F102003CBC88 /* InfoGrabber+CoreDataClass.swift */,
+				E48F1E072541F102003CBC88 /* Person+CoreDataClass.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E48F1E5625421165003CBC88 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E48F1DAC2541E70D003CBC88 /* AppDelegate.swift */,
+				E48F1DAE2541E70D003CBC88 /* SceneDelegate.swift */,
+				E48F1DF12541EC8E003CBC88 /* Launch Screen.storyboard */,
+				E48F1DB82541E713003CBC88 /* Assets.xcassets */,
+				E48F1DBD2541E713003CBC88 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E48F1E572542118C003CBC88 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E48F1E4125420840003CBC88 /* DateTableViewCell.swift */,
+				E48F1E5F2542132C003CBC88 /* FloatingButton.swift */,
+				E48F1E83254378CF003CBC88 /* FormTextField.swift */,
+				E48F1E9A2547285F003CBC88 /* PersonTableViewCell.swift */,
+				E422AE712550A7520090165F /* PersonInfoView.swift */,
+				E422AE762552000A0090165F /* DatesView.swift */,
+				E422AE7B255200EC0090165F /* DateCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E48F1E5825421191003CBC88 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E48F1E322541F8EF003CBC88 /* HomeScreen.swift */,
+				E48F1E372542030E003CBC88 /* ProfileScreen.swift */,
+				E48F1E3C2542060B003CBC88 /* MainTabBar.swift */,
+				E48F1E6425421AC1003CBC88 /* PersonScreen.swift */,
+				E48F1E6C254223A5003CBC88 /* CreatePersonScreen.swift */,
+				E48F1E7625423023003CBC88 /* LoginScreen.swift */,
+				E48F1E7B2543402B003CBC88 /* PersonDetailScreen.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,6 +276,11 @@
 			dependencies = (
 			);
 			name = Pimper;
+			packageProductDependencies = (
+				E422AE5425506B370090165F /* RxSwift */,
+				E422AE5625506B370090165F /* RxRelay */,
+				E422AE5825506B370090165F /* RxCocoa */,
+			);
 			productName = Pimper;
 			productReference = E48F1DA92541E70D003CBC88 /* Pimper.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +352,9 @@
 				Base,
 			);
 			mainGroup = E48F1DA02541E70D003CBC88;
+			packageReferences = (
+				E422AE5325506B370090165F /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = E48F1DAA2541E70D003CBC88 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,9 +371,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E48F1DBC2541E713003CBC88 /* LaunchScreen.storyboard in Resources */,
+				E48F1DF22541EC8E003CBC88 /* Launch Screen.storyboard in Resources */,
 				E48F1DB92541E713003CBC88 /* Assets.xcassets in Resources */,
-				E48F1DB42541E70D003CBC88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +397,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E48F1E9625438D57003CBC88 /* AlertControllers.swift in Sources */,
+				E48F1E7225422FC8003CBC88 /* PersonService.swift in Sources */,
 				E48F1DB72541E70D003CBC88 /* Pimper.xcdatamodeld in Sources */,
-				E48F1DB12541E70D003CBC88 /* ViewController.swift in Sources */,
+				E48F1E0F2541F102003CBC88 /* Person+CoreDataClass.swift in Sources */,
+				E422AE7C255200EC0090165F /* DateCollectionViewCell.swift in Sources */,
+				E48F1E2E2541F888003CBC88 /* MainCoordinator.swift in Sources */,
+				E422AE722550A7520090165F /* PersonInfoView.swift in Sources */,
+				E48F1E332541F8EF003CBC88 /* HomeScreen.swift in Sources */,
+				E48F1E092541F102003CBC88 /* Note+CoreDataClass.swift in Sources */,
 				E48F1DAD2541E70D003CBC88 /* AppDelegate.swift in Sources */,
+				E48F1E4225420840003CBC88 /* DateTableViewCell.swift in Sources */,
+				E422AE5E255071B00090165F /* PersonsListViewModel.swift in Sources */,
+				E422AE84255201670090165F /* DateViewModel.swift in Sources */,
+				E48F1E382542030E003CBC88 /* ProfileScreen.swift in Sources */,
+				E48F1E7725423023003CBC88 /* LoginScreen.swift in Sources */,
+				E422AE66255075F40090165F /* PersonViewModel.swift in Sources */,
+				E48F1E222541F26E003CBC88 /* User+CoreDataClass.swift in Sources */,
+				E48F1E6525421AC1003CBC88 /* PersonScreen.swift in Sources */,
+				E48F1E7C2543402B003CBC88 /* PersonDetailScreen.swift in Sources */,
+				E422AE772552000B0090165F /* DatesView.swift in Sources */,
+				E48F1E6D254223A5003CBC88 /* CreatePersonScreen.swift in Sources */,
 				E48F1DAF2541E70D003CBC88 /* SceneDelegate.swift in Sources */,
+				E48F1E0D2541F102003CBC88 /* InfoGrabber+CoreDataClass.swift in Sources */,
+				E48F1E9125438816003CBC88 /* ViewExtensions.swift in Sources */,
+				E48F1E9B2547285F003CBC88 /* PersonTableViewCell.swift in Sources */,
+				E48F1E0B2541F102003CBC88 /* QCDate+CoreDataClass.swift in Sources */,
+				E48F1E3D2542060B003CBC88 /* MainTabBar.swift in Sources */,
+				E48F1E4725420CCE003CBC88 /* HelperStructs.swift in Sources */,
+				E48F1E602542132C003CBC88 /* FloatingButton.swift in Sources */,
+				E48F1E84254378CF003CBC88 /* FormTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,25 +460,6 @@
 			targetProxy = E48F1DCE2541E714003CBC88 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E48F1DB22541E70D003CBC88 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E48F1DB32541E70D003CBC88 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E48F1DBA2541E713003CBC88 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E48F1DBB2541E713003CBC88 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E48F1DD42541E714003CBC88 /* Debug */ = {
@@ -370,7 +513,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -425,7 +568,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -442,7 +585,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C5UGU936UZ;
-				INFOPLIST_FILE = Pimper/Info.plist;
+				INFOPLIST_FILE = Pimper/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +593,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.qcdev.Pimper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -461,7 +604,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C5UGU936UZ;
-				INFOPLIST_FILE = Pimper/Info.plist;
+				INFOPLIST_FILE = Pimper/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,7 +612,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.qcdev.Pimper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -597,6 +740,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E422AE5325506B370090165F /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E422AE5425506B370090165F /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E422AE5325506B370090165F /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		E422AE5625506B370090165F /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E422AE5325506B370090165F /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		E422AE5825506B370090165F /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E422AE5325506B370090165F /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		E48F1DB52541E70D003CBC88 /* Pimper.xcdatamodeld */ = {

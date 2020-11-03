@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="InfoGrabber" representedClassName="InfoGrabber" syncable="YES" codeGenerationType="category">
+        <attribute name="answer" optional="YES" attributeType="String"/>
+        <attribute name="question" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Note" representedClassName="Note" syncable="YES" codeGenerationType="category">
+        <attribute name="creationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="text" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Person" representedClassName="Person" syncable="YES" codeGenerationType="category">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="age" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="dates" optional="YES" attributeType="Transformable" valueTransformerName="Pimper.Person" customClassName="[QCDate]"/>
+        <attribute name="firstName" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="infoGrabbers" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="[InfoGrabber]"/>
+        <attribute name="instagram" optional="YES" attributeType="String"/>
+        <attribute name="lastName" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="[Note]"/>
+        <attribute name="number" optional="YES" attributeType="String"/>
+        <attribute name="school" optional="YES" attributeType="String"/>
+        <attribute name="snapchat" optional="YES" attributeType="String"/>
+        <attribute name="tiktok" optional="YES" attributeType="String"/>
+        <attribute name="twitter" optional="YES" attributeType="String"/>
+        <attribute name="work" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="QCDate" representedClassName="QCDate" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="person" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="Person"/>
+        <attribute name="time" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="DateInterval"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES" codeGenerationType="category">
+        <attribute name="dates" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="[QCDate]"/>
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <attribute name="persons" optional="YES" attributeType="Transformable" valueTransformerName="" customClassName="[Person]"/>
+    </entity>
+    <elements>
+        <element name="InfoGrabber" positionX="0" positionY="126" width="128" height="73"/>
+        <element name="Note" positionX="-18" positionY="27" width="128" height="73"/>
+        <element name="Person" positionX="-36" positionY="9" width="128" height="268"/>
+        <element name="QCDate" positionX="-54" positionY="-9" width="128" height="118"/>
+        <element name="User" positionX="-63" positionY="-18" width="128" height="103"/>
+    </elements>
+</model>
