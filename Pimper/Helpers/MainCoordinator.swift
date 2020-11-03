@@ -10,25 +10,47 @@ import UIKit
 
 class MainCoordinator {
     
-    let presentingVC: UIViewController
+    let window: UIWindow
     
-    init() {
+    init(window: UIWindow) {
+        self.window = window
+    }
+    
+    func start() {
         let tabBar = MainTabBar()
-        self.presentingVC = tabBar
 
         let homeVC = HomeScreen()
         let profileVC = ProfileScreen()
-        let personsVC = PersonScreen(coordinator: self)
+        let personsVC = PersonScreen(coordinator: self, personsListViewModel: PersonsListViewModel())
         
         let homeNC = UINavigationController(rootViewController: homeVC)
         let profileNC = UINavigationController(rootViewController: profileVC)
         let personsNC = UINavigationController(rootViewController: personsVC)
         
         tabBar.setViewControllers([homeNC, personsNC, profileNC], animated: true)
+        
+        window.rootViewController = tabBar
+        window.makeKeyAndVisible()
     }
     
-    func toCreateScreen(from vc: UIViewController) {
+    func toCreatePersonScreen(from vc: UIViewController) {
+        weak var weakVC = vc
         let newVC = CreatePersonScreen(coordinator: self)
-        vc.navigationController?.pushViewController(newVC, animated: true)
+        weakVC!.navigationController?.pushViewController(newVC, animated: true)
+    }
+    
+    func toPersonDetailScreen(from vc: UIViewController, with person: PersonViewModel) {
+        let newVC = PersonDetailScreen(coordinator: self, person: person)
+        newVC.modalPresentationStyle = .formSheet
+        window.rootViewController!.present(newVC, animated: true)
+    }
+    
+    func popScreen(from vc: UIViewController) {
+        weak var weakVC = vc
+        weakVC!.navigationController?.popViewController(animated: true)
+    }
+    
+    func signIn(with: User) {
+        
     }
 }

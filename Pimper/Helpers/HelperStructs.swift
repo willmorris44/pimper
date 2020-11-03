@@ -9,4 +9,5 @@ import Foundation
 
 struct Cells {
     static let dateCell = "dateCell"
+    static let personCell = "personCell"
 }

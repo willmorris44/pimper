@@ -10,7 +10,7 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
+    var appCoordinator: MainCoordinator?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
@@ -18,13 +18,17 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let scene = (scene as? UIWindowScene) else { return }
         
-        let mainCoordinator = MainCoordinator()
-        let vc = mainCoordinator.presentingVC
+        UINavigationBar.appearance().barStyle = .default
+        UINavigationBar.appearance().isTranslucent = true
+        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.magenta]
+        UINavigationBar.appearance().tintColor = .magenta
+        UINavigationBar.appearance().barTintColor = .white
+        UINavigationBar.appearance().prefersLargeTitles = true
+        UINavigationBar.appearance().largeTitleTextAttributes = [.foregroundColor: UIColor.magenta,]
         
         let window = UIWindow(windowScene: scene)
-        window.rootViewController = vc
-        window.makeKeyAndVisible()
-        self.window = window
+        appCoordinator = MainCoordinator(window: window)
+        appCoordinator?.start()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

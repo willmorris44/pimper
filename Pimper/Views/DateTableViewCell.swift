@@ -10,23 +10,23 @@ import UIKit
 
 class DateTableViewCell: UITableViewCell {
     
-    private(set) var date: QCDateVM?
+    private(set) var date: DateViewModel?
         
     private lazy var dateLabel: UILabel = {
         let result = UILabel()
-        result.text = date?.date
+        result.text = date?.displayTime
         return result
     }()
     
     private lazy var nameLabel: UILabel = {
         let result = UILabel()
-        result.text = date?.person
+        result.text = "dd"
         return result
     }()
     
     private lazy var addressLabel: UILabel = {
         let result = UILabel()
-        result.text = date?.address
+        result.text = date?.displayAddress
         return result
     }()
             
@@ -38,7 +38,7 @@ class DateTableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func setDate(date: QCDateVM) {
+    func setDate(date: DateViewModel) {
         self.date = date
         addSubview(dateLabel)
         addSubview(nameLabel)

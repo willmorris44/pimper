@@ -18,6 +18,8 @@ class FloatingButton: UIButton {
         super.init(frame: .zero)
 
         addTarget(self, action: #selector(tapped), for: .touchUpInside)
+        
+        setupSelf()
     }
     
     required init?(coder: NSCoder) {
@@ -28,15 +30,18 @@ class FloatingButton: UIButton {
         completion()
     }
     
+    private func setupSelf() {
+        backgroundColor = .white
+        tintColor = .black
+    }
+    
     private func configureSelf() {
         //clipsToBounds = true
-        backgroundColor = .white
         layer.cornerRadius = frame.height / 2
         layer.shadowColor = UIColor.systemGray4.cgColor
         layer.shadowRadius = 5
         layer.shadowOffset = CGSize(width: 0, height: 5)
         layer.shadowOpacity = 0.8
-        tintColor = .black
     }
     
     override func layoutSubviews() {

@@ -3,10 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E422AE5525506B370090165F /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E422AE5425506B370090165F /* RxSwift */; };
+		E422AE5725506B370090165F /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = E422AE5625506B370090165F /* RxRelay */; };
+		E422AE5925506B370090165F /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = E422AE5825506B370090165F /* RxCocoa */; };
+		E422AE5E255071B00090165F /* PersonsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422AE5D255071B00090165F /* PersonsListViewModel.swift */; };
+		E422AE66255075F40090165F /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422AE65255075F40090165F /* PersonViewModel.swift */; };
+		E422AE722550A7520090165F /* PersonInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422AE712550A7520090165F /* PersonInfoView.swift */; };
+		E422AE772552000B0090165F /* DatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422AE762552000A0090165F /* DatesView.swift */; };
+		E422AE7C255200EC0090165F /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422AE7B255200EC0090165F /* DateCollectionViewCell.swift */; };
+		E422AE84255201670090165F /* DateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422AE83255201670090165F /* DateViewModel.swift */; };
 		E48F1DAD2541E70D003CBC88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DAC2541E70D003CBC88 /* AppDelegate.swift */; };
 		E48F1DAF2541E70D003CBC88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DAE2541E70D003CBC88 /* SceneDelegate.swift */; };
 		E48F1DB72541E70D003CBC88 /* Pimper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DB52541E70D003CBC88 /* Pimper.xcdatamodeld */; };
@@ -25,10 +34,16 @@
 		E48F1E3D2542060B003CBC88 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E3C2542060B003CBC88 /* MainTabBar.swift */; };
 		E48F1E4225420840003CBC88 /* DateTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E4125420840003CBC88 /* DateTableViewCell.swift */; };
 		E48F1E4725420CCE003CBC88 /* HelperStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E4625420CCE003CBC88 /* HelperStructs.swift */; };
-		E48F1E4C25420D63003CBC88 /* QCDateVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E4B25420D63003CBC88 /* QCDateVM.swift */; };
 		E48F1E602542132C003CBC88 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E5F2542132C003CBC88 /* FloatingButton.swift */; };
 		E48F1E6525421AC1003CBC88 /* PersonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E6425421AC1003CBC88 /* PersonScreen.swift */; };
 		E48F1E6D254223A5003CBC88 /* CreatePersonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E6C254223A5003CBC88 /* CreatePersonScreen.swift */; };
+		E48F1E7225422FC8003CBC88 /* PersonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E7125422FC8003CBC88 /* PersonService.swift */; };
+		E48F1E7725423023003CBC88 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E7625423023003CBC88 /* LoginScreen.swift */; };
+		E48F1E7C2543402B003CBC88 /* PersonDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E7B2543402B003CBC88 /* PersonDetailScreen.swift */; };
+		E48F1E84254378CF003CBC88 /* FormTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E83254378CF003CBC88 /* FormTextField.swift */; };
+		E48F1E9125438816003CBC88 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E9025438816003CBC88 /* ViewExtensions.swift */; };
+		E48F1E9625438D57003CBC88 /* AlertControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E9525438D57003CBC88 /* AlertControllers.swift */; };
+		E48F1E9B2547285F003CBC88 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1E9A2547285F003CBC88 /* PersonTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +64,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E422AE5D255071B00090165F /* PersonsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListViewModel.swift; sourceTree = "<group>"; };
+		E422AE65255075F40090165F /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
+		E422AE712550A7520090165F /* PersonInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoView.swift; sourceTree = "<group>"; };
+		E422AE762552000A0090165F /* DatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatesView.swift; sourceTree = "<group>"; };
+		E422AE7B255200EC0090165F /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCollectionViewCell.swift; sourceTree = "<group>"; };
+		E422AE83255201670090165F /* DateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewModel.swift; sourceTree = "<group>"; };
 		E48F1DA92541E70D003CBC88 /* Pimper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pimper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48F1DAC2541E70D003CBC88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E48F1DAE2541E70D003CBC88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,10 +94,16 @@
 		E48F1E3C2542060B003CBC88 /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
 		E48F1E4125420840003CBC88 /* DateTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTableViewCell.swift; sourceTree = "<group>"; };
 		E48F1E4625420CCE003CBC88 /* HelperStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperStructs.swift; sourceTree = "<group>"; };
-		E48F1E4B25420D63003CBC88 /* QCDateVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QCDateVM.swift; sourceTree = "<group>"; };
 		E48F1E5F2542132C003CBC88 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
 		E48F1E6425421AC1003CBC88 /* PersonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonScreen.swift; sourceTree = "<group>"; };
 		E48F1E6C254223A5003CBC88 /* CreatePersonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePersonScreen.swift; sourceTree = "<group>"; };
+		E48F1E7125422FC8003CBC88 /* PersonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonService.swift; sourceTree = "<group>"; };
+		E48F1E7625423023003CBC88 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		E48F1E7B2543402B003CBC88 /* PersonDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailScreen.swift; sourceTree = "<group>"; };
+		E48F1E83254378CF003CBC88 /* FormTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextField.swift; sourceTree = "<group>"; };
+		E48F1E9025438816003CBC88 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		E48F1E9525438D57003CBC88 /* AlertControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertControllers.swift; sourceTree = "<group>"; };
+		E48F1E9A2547285F003CBC88 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +111,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E422AE5925506B370090165F /* RxCocoa in Frameworks */,
+				E422AE5725506B370090165F /* RxRelay in Frameworks */,
+				E422AE5525506B370090165F /* RxSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,6 +190,9 @@
 			children = (
 				E48F1E2D2541F888003CBC88 /* MainCoordinator.swift */,
 				E48F1E4625420CCE003CBC88 /* HelperStructs.swift */,
+				E48F1E7125422FC8003CBC88 /* PersonService.swift */,
+				E48F1E9025438816003CBC88 /* ViewExtensions.swift */,
+				E48F1E9525438D57003CBC88 /* AlertControllers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -167,7 +200,9 @@
 		E48F1E542542113A003CBC88 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				E48F1E4B25420D63003CBC88 /* QCDateVM.swift */,
+				E422AE5D255071B00090165F /* PersonsListViewModel.swift */,
+				E422AE65255075F40090165F /* PersonViewModel.swift */,
+				E422AE83255201670090165F /* DateViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -202,6 +237,11 @@
 			children = (
 				E48F1E4125420840003CBC88 /* DateTableViewCell.swift */,
 				E48F1E5F2542132C003CBC88 /* FloatingButton.swift */,
+				E48F1E83254378CF003CBC88 /* FormTextField.swift */,
+				E48F1E9A2547285F003CBC88 /* PersonTableViewCell.swift */,
+				E422AE712550A7520090165F /* PersonInfoView.swift */,
+				E422AE762552000A0090165F /* DatesView.swift */,
+				E422AE7B255200EC0090165F /* DateCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -214,6 +254,8 @@
 				E48F1E3C2542060B003CBC88 /* MainTabBar.swift */,
 				E48F1E6425421AC1003CBC88 /* PersonScreen.swift */,
 				E48F1E6C254223A5003CBC88 /* CreatePersonScreen.swift */,
+				E48F1E7625423023003CBC88 /* LoginScreen.swift */,
+				E48F1E7B2543402B003CBC88 /* PersonDetailScreen.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -234,6 +276,11 @@
 			dependencies = (
 			);
 			name = Pimper;
+			packageProductDependencies = (
+				E422AE5425506B370090165F /* RxSwift */,
+				E422AE5625506B370090165F /* RxRelay */,
+				E422AE5825506B370090165F /* RxCocoa */,
+			);
 			productName = Pimper;
 			productReference = E48F1DA92541E70D003CBC88 /* Pimper.app */;
 			productType = "com.apple.product-type.application";
@@ -305,6 +352,9 @@
 				Base,
 			);
 			mainGroup = E48F1DA02541E70D003CBC88;
+			packageReferences = (
+				E422AE5325506B370090165F /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = E48F1DAA2541E70D003CBC88 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -347,24 +397,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E48F1E9625438D57003CBC88 /* AlertControllers.swift in Sources */,
+				E48F1E7225422FC8003CBC88 /* PersonService.swift in Sources */,
 				E48F1DB72541E70D003CBC88 /* Pimper.xcdatamodeld in Sources */,
 				E48F1E0F2541F102003CBC88 /* Person+CoreDataClass.swift in Sources */,
+				E422AE7C255200EC0090165F /* DateCollectionViewCell.swift in Sources */,
 				E48F1E2E2541F888003CBC88 /* MainCoordinator.swift in Sources */,
+				E422AE722550A7520090165F /* PersonInfoView.swift in Sources */,
 				E48F1E332541F8EF003CBC88 /* HomeScreen.swift in Sources */,
 				E48F1E092541F102003CBC88 /* Note+CoreDataClass.swift in Sources */,
 				E48F1DAD2541E70D003CBC88 /* AppDelegate.swift in Sources */,
 				E48F1E4225420840003CBC88 /* DateTableViewCell.swift in Sources */,
+				E422AE5E255071B00090165F /* PersonsListViewModel.swift in Sources */,
+				E422AE84255201670090165F /* DateViewModel.swift in Sources */,
 				E48F1E382542030E003CBC88 /* ProfileScreen.swift in Sources */,
+				E48F1E7725423023003CBC88 /* LoginScreen.swift in Sources */,
+				E422AE66255075F40090165F /* PersonViewModel.swift in Sources */,
 				E48F1E222541F26E003CBC88 /* User+CoreDataClass.swift in Sources */,
 				E48F1E6525421AC1003CBC88 /* PersonScreen.swift in Sources */,
+				E48F1E7C2543402B003CBC88 /* PersonDetailScreen.swift in Sources */,
+				E422AE772552000B0090165F /* DatesView.swift in Sources */,
 				E48F1E6D254223A5003CBC88 /* CreatePersonScreen.swift in Sources */,
 				E48F1DAF2541E70D003CBC88 /* SceneDelegate.swift in Sources */,
 				E48F1E0D2541F102003CBC88 /* InfoGrabber+CoreDataClass.swift in Sources */,
+				E48F1E9125438816003CBC88 /* ViewExtensions.swift in Sources */,
+				E48F1E9B2547285F003CBC88 /* PersonTableViewCell.swift in Sources */,
 				E48F1E0B2541F102003CBC88 /* QCDate+CoreDataClass.swift in Sources */,
 				E48F1E3D2542060B003CBC88 /* MainTabBar.swift in Sources */,
-				E48F1E4C25420D63003CBC88 /* QCDateVM.swift in Sources */,
 				E48F1E4725420CCE003CBC88 /* HelperStructs.swift in Sources */,
 				E48F1E602542132C003CBC88 /* FloatingButton.swift in Sources */,
+				E48F1E84254378CF003CBC88 /* FormTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,6 +740,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E422AE5325506B370090165F /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E422AE5425506B370090165F /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E422AE5325506B370090165F /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		E422AE5625506B370090165F /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E422AE5325506B370090165F /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		E422AE5825506B370090165F /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E422AE5325506B370090165F /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		E48F1DB52541E70D003CBC88 /* Pimper.xcdatamodeld */ = {
