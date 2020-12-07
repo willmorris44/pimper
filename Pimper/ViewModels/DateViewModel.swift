@@ -7,16 +7,17 @@
 
 import Foundation
 import UIKit
+import CoreData
 
 class DateViewModel {
     private let date: QCDate
     
     var displayTime: String {
-        return "f"
+        return "\(date.time!.start.shortDate))"
     }
     
     var displayAddress: String {
-        return "d"
+        return date.address ?? "address"
     }
     
     var model: QCDate {

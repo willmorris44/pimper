@@ -8,6 +8,7 @@
 import Foundation
 
 struct Cells {
-    static let dateCell = "dateCell"
+    static let dateTableViewCell = "dateTableViewCell"
+    static let dateCollectionViewCell = "dateCollectionViewCell"
     static let personCell = "personCell"
 }

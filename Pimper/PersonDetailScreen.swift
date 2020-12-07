@@ -31,6 +31,12 @@ class PersonDetailScreen: UIViewController {
         return result
     }()
     
+    private lazy var datesView: DatesView = {
+        let result = DatesView(person: person)
+        result.translatesAutoresizingMaskIntoConstraints = false
+        return result
+    }()
+    
     //###############################################################################################################
     // MARK: - LIFECYCLE
     //###############################################################################################################
@@ -54,6 +60,7 @@ class PersonDetailScreen: UIViewController {
         view.backgroundColor = .white
         setupNameLabel()
         setupPersonInfoView()
+        setupDatesView()
     }
     
     override func viewDidLayoutSubviews() {
@@ -89,5 +96,13 @@ class PersonDetailScreen: UIViewController {
         personInfoView.topAnchor.constraint(equalTo: nameLabel.bottomAnchor, constant: 24).isActive = true
         personInfoView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         personInfoView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.9).isActive = true
+    }
+    
+    private func setupDatesView() {
+        view.addSubview(datesView)
+        datesView.topAnchor.constraint(equalTo: personInfoView.bottomAnchor, constant: 24).isActive = true
+        datesView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        datesView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        datesView.heightAnchor.constraint(equalTo: view.heightAnchor, multiplier: 0.3).isActive = true
     }
 }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E40F71AF255353BE0087DDA6 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F71AE255353BE0087DDA6 /* DateHelper.swift */; };
+		E40F71B425546F0E0087DDA6 /* CreateDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F71B325546F0E0087DDA6 /* CreateDateViewController.swift */; };
+		E40F71B925546FD00087DDA6 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40F71B825546FD00087DDA6 /* ModalView.swift */; };
 		E422AE5525506B370090165F /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E422AE5425506B370090165F /* RxSwift */; };
 		E422AE5725506B370090165F /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = E422AE5625506B370090165F /* RxRelay */; };
 		E422AE5925506B370090165F /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = E422AE5825506B370090165F /* RxCocoa */; };
@@ -16,6 +19,11 @@
 		E422AE772552000B0090165F /* DatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422AE762552000A0090165F /* DatesView.swift */; };
 		E422AE7C255200EC0090165F /* DateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422AE7B255200EC0090165F /* DateCollectionViewCell.swift */; };
 		E422AE84255201670090165F /* DateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422AE83255201670090165F /* DateViewModel.swift */; };
+		E422AEDB2553397E0090165F /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422AED72553397E0090165F /* Person+CoreDataProperties.swift */; };
+		E422AEDD2553397E0090165F /* QCDate+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422AED92553397E0090165F /* QCDate+CoreDataProperties.swift */; };
+		E422AEF125533E0F0090165F /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422AEEB25533E0F0090165F /* Note+CoreDataProperties.swift */; };
+		E422AEF325533E0F0090165F /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422AEED25533E0F0090165F /* User+CoreDataProperties.swift */; };
+		E422AEF525533E0F0090165F /* InfoGrabber+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E422AEEF25533E0F0090165F /* InfoGrabber+CoreDataProperties.swift */; };
 		E48F1DAD2541E70D003CBC88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DAC2541E70D003CBC88 /* AppDelegate.swift */; };
 		E48F1DAF2541E70D003CBC88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DAE2541E70D003CBC88 /* SceneDelegate.swift */; };
 		E48F1DB72541E70D003CBC88 /* Pimper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E48F1DB52541E70D003CBC88 /* Pimper.xcdatamodeld */; };
@@ -64,12 +72,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E40F71AE255353BE0087DDA6 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		E40F71B325546F0E0087DDA6 /* CreateDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDateViewController.swift; sourceTree = "<group>"; };
+		E40F71B825546FD00087DDA6 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		E422AE5D255071B00090165F /* PersonsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListViewModel.swift; sourceTree = "<group>"; };
 		E422AE65255075F40090165F /* PersonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
 		E422AE712550A7520090165F /* PersonInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonInfoView.swift; sourceTree = "<group>"; };
 		E422AE762552000A0090165F /* DatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatesView.swift; sourceTree = "<group>"; };
 		E422AE7B255200EC0090165F /* DateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCollectionViewCell.swift; sourceTree = "<group>"; };
 		E422AE83255201670090165F /* DateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewModel.swift; sourceTree = "<group>"; };
+		E422AED72553397E0090165F /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E422AED92553397E0090165F /* QCDate+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QCDate+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E422AEEB25533E0F0090165F /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E422AEED25533E0F0090165F /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E422AEEF25533E0F0090165F /* InfoGrabber+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InfoGrabber+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E48F1DA92541E70D003CBC88 /* Pimper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pimper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48F1DAC2541E70D003CBC88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E48F1DAE2541E70D003CBC88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +153,11 @@
 		E48F1DA02541E70D003CBC88 = {
 			isa = PBXGroup;
 			children = (
+				E422AEEB25533E0F0090165F /* Note+CoreDataProperties.swift */,
+				E422AEED25533E0F0090165F /* User+CoreDataProperties.swift */,
+				E422AEEF25533E0F0090165F /* InfoGrabber+CoreDataProperties.swift */,
+				E422AED72553397E0090165F /* Person+CoreDataProperties.swift */,
+				E422AED92553397E0090165F /* QCDate+CoreDataProperties.swift */,
 				E48F1DAB2541E70D003CBC88 /* Pimper */,
 				E48F1DC52541E714003CBC88 /* PimperTests */,
 				E48F1DD02541E714003CBC88 /* PimperUITests */,
@@ -193,6 +214,7 @@
 				E48F1E7125422FC8003CBC88 /* PersonService.swift */,
 				E48F1E9025438816003CBC88 /* ViewExtensions.swift */,
 				E48F1E9525438D57003CBC88 /* AlertControllers.swift */,
+				E40F71AE255353BE0087DDA6 /* DateHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -242,6 +264,7 @@
 				E422AE712550A7520090165F /* PersonInfoView.swift */,
 				E422AE762552000A0090165F /* DatesView.swift */,
 				E422AE7B255200EC0090165F /* DateCollectionViewCell.swift */,
+				E40F71B825546FD00087DDA6 /* ModalView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -256,6 +279,7 @@
 				E48F1E6C254223A5003CBC88 /* CreatePersonScreen.swift */,
 				E48F1E7625423023003CBC88 /* LoginScreen.swift */,
 				E48F1E7B2543402B003CBC88 /* PersonDetailScreen.swift */,
+				E40F71B325546F0E0087DDA6 /* CreateDateViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -403,13 +427,17 @@
 				E48F1E0F2541F102003CBC88 /* Person+CoreDataClass.swift in Sources */,
 				E422AE7C255200EC0090165F /* DateCollectionViewCell.swift in Sources */,
 				E48F1E2E2541F888003CBC88 /* MainCoordinator.swift in Sources */,
+				E422AEDD2553397E0090165F /* QCDate+CoreDataProperties.swift in Sources */,
 				E422AE722550A7520090165F /* PersonInfoView.swift in Sources */,
 				E48F1E332541F8EF003CBC88 /* HomeScreen.swift in Sources */,
 				E48F1E092541F102003CBC88 /* Note+CoreDataClass.swift in Sources */,
 				E48F1DAD2541E70D003CBC88 /* AppDelegate.swift in Sources */,
+				E40F71B425546F0E0087DDA6 /* CreateDateViewController.swift in Sources */,
 				E48F1E4225420840003CBC88 /* DateTableViewCell.swift in Sources */,
+				E422AEDB2553397E0090165F /* Person+CoreDataProperties.swift in Sources */,
 				E422AE5E255071B00090165F /* PersonsListViewModel.swift in Sources */,
 				E422AE84255201670090165F /* DateViewModel.swift in Sources */,
+				E422AEF525533E0F0090165F /* InfoGrabber+CoreDataProperties.swift in Sources */,
 				E48F1E382542030E003CBC88 /* ProfileScreen.swift in Sources */,
 				E48F1E7725423023003CBC88 /* LoginScreen.swift in Sources */,
 				E422AE66255075F40090165F /* PersonViewModel.swift in Sources */,
@@ -420,11 +448,15 @@
 				E48F1E6D254223A5003CBC88 /* CreatePersonScreen.swift in Sources */,
 				E48F1DAF2541E70D003CBC88 /* SceneDelegate.swift in Sources */,
 				E48F1E0D2541F102003CBC88 /* InfoGrabber+CoreDataClass.swift in Sources */,
+				E422AEF325533E0F0090165F /* User+CoreDataProperties.swift in Sources */,
 				E48F1E9125438816003CBC88 /* ViewExtensions.swift in Sources */,
+				E422AEF125533E0F0090165F /* Note+CoreDataProperties.swift in Sources */,
+				E40F71B925546FD00087DDA6 /* ModalView.swift in Sources */,
 				E48F1E9B2547285F003CBC88 /* PersonTableViewCell.swift in Sources */,
 				E48F1E0B2541F102003CBC88 /* QCDate+CoreDataClass.swift in Sources */,
 				E48F1E3D2542060B003CBC88 /* MainTabBar.swift in Sources */,
 				E48F1E4725420CCE003CBC88 /* HelperStructs.swift in Sources */,
+				E40F71AF255353BE0087DDA6 /* DateHelper.swift in Sources */,
 				E48F1E602542132C003CBC88 /* FloatingButton.swift in Sources */,
 				E48F1E84254378CF003CBC88 /* FormTextField.swift in Sources */,
 			);
