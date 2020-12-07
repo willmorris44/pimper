@@ -29,6 +29,8 @@ class PersonService {
     
     init() {
         //self.user = [User(context: context)]
+//        (UIApplication.shared.delegate as! AppDelegate).deleteAllData("Person")
+//        (UIApplication.shared.delegate as! AppDelegate).deleteAllData("QCDate")
         fetchPersons()
         self.fetchUser()
        // self.fetchPersons()
@@ -45,6 +47,23 @@ class PersonService {
         person.twitter = twitter
         person.tiktok = tiktok
         person.snapchat = snapchat
+        
+        // test
+        let date = QCDate(context: context)
+        date.address = "123 address"
+        date.time = DateInterval(start: Date(), duration: 123)
+        person.addToDates(date)
+        
+        let date2 = QCDate(context: context)
+        date2.address = "839 address"
+        date2.time = DateInterval(start: Date(), duration: 323)
+        person.addToDates(date2)
+        
+        let date3 = QCDate(context: context)
+        date3.address = "203 address"
+        date3.time = DateInterval(start: Date(), duration: 54322)
+        person.addToDates(date3)
+        
         saveContext()
         fetchPersons()
     }

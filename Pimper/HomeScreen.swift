@@ -14,15 +14,18 @@ class HomeScreen: UIViewController {
 // MARK: - PROPERTIES
 //###############################################################################################################
     
+    weak var coordinator: MainCoordinator?
+    
     private lazy var tableView: UITableView = {
         let result = UITableView()
-        result.register(DateTableViewCell.self, forCellReuseIdentifier: Cells.dateCell)
+        result.register(DateTableViewCell.self, forCellReuseIdentifier: Cells.dateTableViewCell)
         return result
     }()
     
     private lazy var createDateButton: FloatingButton = {
-        let result = FloatingButton {
-            print("1")
+        let result = FloatingButton { [weak self] in
+            guard let self = self else { return }
+            self.coordinator?.toCreateDateScreen(from: self)
         }
         result.setImage(UIImage(systemName: "plus"), for: .normal)
         return result
@@ -43,6 +46,15 @@ class HomeScreen: UIViewController {
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         tableView.frame = view.bounds
+    }
+    
+    init(coordinator: MainCoordinator) {
+        self.coordinator = coordinator
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
     
 //###############################################################################################################
@@ -81,9 +93,9 @@ extension HomeScreen: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: Cells.dateCell, for: indexPath) as! DateTableViewCell
-        let date = DateViewModel(date: QCDate())
-        cell.setDate(date: date)
+        let cell = tableView.dequeueReusableCell(withIdentifier: Cells.dateTableViewCell, for: indexPath) as! DateTableViewCell
+        //let date = DateViewModel(date: QCDate())
+        //cell.setDate(date: date)
         
         return cell 
     }

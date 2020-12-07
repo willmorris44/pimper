@@ -19,7 +19,7 @@ class MainCoordinator {
     func start() {
         let tabBar = MainTabBar()
 
-        let homeVC = HomeScreen()
+        let homeVC = HomeScreen(coordinator: self)
         let profileVC = ProfileScreen()
         let personsVC = PersonScreen(coordinator: self, personsListViewModel: PersonsListViewModel())
         
@@ -36,6 +36,12 @@ class MainCoordinator {
     func toCreatePersonScreen(from vc: UIViewController) {
         weak var weakVC = vc
         let newVC = CreatePersonScreen(coordinator: self)
+        weakVC!.navigationController?.pushViewController(newVC, animated: true)
+    }
+    
+    func toCreateDateScreen(from vc: UIViewController) {
+        weak var weakVC = vc
+        let newVC = CreateDateViewController(coordinator: self)
         weakVC!.navigationController?.pushViewController(newVC, animated: true)
     }
     
